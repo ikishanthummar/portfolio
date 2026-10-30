@@ -6,7 +6,7 @@ export const profile = {
   phoneHref: 'tel:+917801840040',
   github: 'https://github.com/ikishanthummar',
   linkedin: 'https://linkedin.com/in/ikishanthummar',
-  cv: '/Kishan_Thummar_CV.pdf',
+  cv: `${import.meta.env.BASE_URL}Kishan_Thummar_CV.pdf`,
   about:
     'Full Stack Developer with 6.2+ years of experience designing and delivering scalable enterprise applications across fintech, CRM, event management and media platforms.',
 }
